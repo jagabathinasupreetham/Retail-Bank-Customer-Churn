@@ -12,7 +12,7 @@ An end-to-end data analysis project exploring customer churn behavior in retail 
 - `dashboard.png`: Screenshot of the final Tableau dashboard.
 
 ## Tableau Dashboard Preview
-![Tableau Dashboard](dashboard.png)
+![Tableau Dashboard](Dashboard.png)
 
 ## Key Insights
 - **Baseline Churn:** The overall customer churn rate sits at approximately 20.4%.
