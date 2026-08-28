@@ -1,35 +1,29 @@
-# 💳 Retail Bank Customer Churn Analysis
+# 💳 Retail Bank Churn Analysis
 
-An end-to-end data analysis project exploring customer churn behavior across 10,000 retail banking profiles to diagnose key attrition drivers and support customer retention strategies.
+> End-to-end data analysis and interactive dashboarding to profile 10,000 banking customers and isolate key attrition drivers.
 
 ---
 
 ## 📊 Dashboard Preview
-*(Interactive dashboard built in Tableau Desktop)*
-
-![Tableau Dashboard](Dashboard.png)
+![Dashboard Preview](Dashboard.png)
 
 ---
 
-## 🚀 Key Insights
-- **Baseline Churn Rate:** The overall customer churn rate stands at **20.4%** (2,037 out of 10,000 customers exited).
-- **Geographic Risk:** Germany exhibits a significantly higher churn rate compared to France and Spain, despite having a similar baseline customer volume.
-- **Member Engagement:** Inactive members churn at nearly double the rate of active members, highlighting an opportunity for proactive re-engagement campaigns.
-- **Product Vulnerability:** Customers holding 3 or 4 banking products experienced near-complete churn, indicating potential friction in cross-selling or service bundling.
-- **Demographic Impact:** Churn rates increase noticeably among older customer demographics (ages 45–60) compared to younger cohorts.
+## 📌 Project Highlights
+* **Data Processing:** Processed and cleaned 10,000 customer profiles using Pandas, parsing currency strings to evaluate financial attributes.
+* **Exploratory Data Analysis:** Conducted EDA to evaluate attrition drivers, analyzing impacts of membership status, geography, and age on retention.
+* **Risk Visualization:** Designed a Tableau dashboard highlighting a 20.4% churn rate and visualizing high-risk segments across demographics.
 
 ---
 
-## 🛠️ Tools & Tech Stack
-- **Database & Querying:** SQL (MySQL)
-- **Data Preprocessing & EDA:** Python (Pandas, NumPy, Matplotlib)
-- **Business Intelligence:** Tableau Desktop
+## 🚀 Key Metrics
+* **Total Profiles:** 10,000 customers
+* **Baseline Churn Rate:** 20.4%
+* **Key Drivers:** Membership status, geography, age
 
 ---
 
-## 📈 Project Workflow
-1. **Data Cleaning & Preparation (Python/Pandas):** Handled formatted currency strings, validated categorical distributions, verified missing data, and exported the cleaned dataset.
-2. **Exploratory Data Analysis (EDA):** Profiled customer attributes against churn status to isolate demographic, behavioral, and financial drivers.
-3. **Interactive BI Dashboard (Tableau):** Designed an executive dashboard utilizing stacked bar charts, histograms, and KPI cards to visualize high-risk segments.
-
----
+## 🛠️ Tech Stack
+* **Database & Querying:** SQL (MySQL)
+* **Data Analysis:** Python, Pandas, NumPy
+* **Visualization:** Tableau
