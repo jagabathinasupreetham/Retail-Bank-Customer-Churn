@@ -33,5 +33,3 @@ An end-to-end data analysis project exploring customer churn behavior across 10,
 3. **Interactive BI Dashboard (Tableau):** Designed an executive dashboard utilizing stacked bar charts, histograms, and KPI cards to visualize high-risk segments.
 
 ---
-
-## 📂 Repository Structure
