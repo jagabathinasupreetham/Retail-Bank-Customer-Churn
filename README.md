@@ -12,7 +12,7 @@ An end-to-end data analysis project exploring customer churn behavior in retail 
 
 ## Files in this Repository
 
-- `raw_churn_dat.sql`: SQL table creation, data loading, and analysis queries.
+- `raw_churn_data.sql`: SQL table creation, data loading, and analysis queries.
 - `Bank_Churn_EDA.ipynb`: Jupyter Notebook containing Python data cleaning and exploratory analysis.
 - `cleaned_churn_data.csv`: Processed dataset used for analysis and visualization.
 - `dashboard.png`: Screenshot of the final Tableau dashboard.
