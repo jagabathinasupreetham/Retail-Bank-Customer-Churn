@@ -1,29 +1,29 @@
-# 💳 Retail Bank Churn Analysis
+# Retail Bank Customer Churn Analysis
 
-> End-to-end data analysis and interactive dashboarding to profile 10,000 banking customers and isolate key attrition drivers.
+An end-to-end data analysis project exploring customer churn behavior in retail banking to identify risk factors and support retention strategies.
 
----
+## Project Workflow
 
-## 📊 Dashboard Preview
-![Dashboard Preview](Dashboard.png)
+1. **SQL Analysis (MySQL):** Loaded the raw banking dataset into MySQL, created the required table, and performed initial analysis using SQL queries.
 
----
+2. **Data Cleaning & Exploration (Python):** Imported the data into Jupyter Notebook for data validation, cleaning, and exploratory analysis. Converted currency-formatted fields such as `Balance` and `EstimatedSalary` from string values to numeric data types.
 
-## 📌 Project Highlights
-* **Data Processing:** Processed and cleaned 10,000 customer profiles using Pandas, parsing currency strings to evaluate financial attributes.
-* **Exploratory Data Analysis:** Conducted EDA to evaluate attrition drivers, analyzing impacts of membership status, geography, and age on retention.
-* **Risk Visualization:** Designed a Tableau dashboard highlighting a 20.4% churn rate and visualizing high-risk segments across demographics.
+3. **Data Visualization (Tableau):** Built an interactive dashboard to visualize key performance indicators, regional risk factors, customer segments, and churn demographics using the processed data.
 
----
+## Files in this Repository
 
-## 🚀 Key Metrics
-* **Total Profiles:** 10,000 customers
-* **Baseline Churn Rate:** 20.4%
-* **Key Drivers:** Membership status, geography, age
+- `raw_churn_dat.sql`: SQL table creation, data loading, and analysis queries.
+- `Bank_Churn_EDA.ipynb`: Jupyter Notebook containing Python data cleaning and exploratory analysis.
+- `cleaned_churn_data.csv`: Processed dataset used for analysis and visualization.
+- `dashboard.png`: Screenshot of the final Tableau dashboard.
 
----
+## Tableau Dashboard Preview
 
-## 🛠️ Tech Stack
-* **Database & Querying:** SQL (MySQL)
-* **Data Analysis:** Python, Pandas, NumPy
-* **Visualization:** Tableau
+![Tableau Dashboard](Dashboard.png)
+
+## Key Insights
+
+- **Baseline Churn:** The overall customer churn rate is approximately 20.4% (2,037 out of 10,000 customers).
+- **Geographic Trends:** Germany shows a noticeably higher churn rate relative to France and Spain.
+- **Product Engagement:** Customers with one product show a higher churn rate than customers with two products.
+- **Member Engagement:** Inactive members exhibit a higher churn rate, highlighting an opportunity for targeted re-engagement strategies.
